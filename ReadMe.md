@@ -1,7 +1,8 @@
-# **Finding Lane Lines on the Road** 
+# **Identifying Lane Lines Using Python and OpenCV** 
 ***
-
-img src='PipelineStages/Stage_1_HLS%20(1).jpg' width='100%'>
+<p align="center">
+<img src='PipelineStages/solidWhiteRight_final.jpg' width='50%'>
+</p>
 
 ## Overview
 As we are all moving from manually driven cars to the Self-Driving Cars, there is a need for huge innovation! To make a car to drive on its own we need a lot of complex systems. And **Lane Detection System** is one such system which falls under Level-1 of Advanced Driver Assistance Systems, in short **ADAS**.
