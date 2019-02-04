@@ -28,5 +28,5 @@ Please refer `Project_Writeup.md` for detailed information regarding the step by
 ## To run this notebook: 
 - clone or download this project
 - Open Jupyter notebook
-- Open 'P1.ipynb'
+- Navigate to the project folder and Open 'P1.ipynb'
 - Now you can `run` all the cells
