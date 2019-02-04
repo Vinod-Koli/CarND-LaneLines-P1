@@ -25,7 +25,7 @@ Please refer `Project_Writeup.md` for detailed information regarding the step by
 - Make sure Pyhton and OpenCV and other libraries are available on the system
 - Download and install [Jupyter Notebook](https://jupyter.org/).
 
-## To run this notebook, 
+## To run this notebook: 
 - clone or download this project
 - Open Jupyter notebook
 - Open 'P1.ipynb'
