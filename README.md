@@ -11,21 +11,21 @@ This project walks you through the basic fundamental techniques used in detectin
 
 Please refer `Project_Writeup.md` for detailed information regarding the step by step techniques used in this project.
 
-The Project contains following files:
+## The Project contains following files:
 
-- test_images/        : Contains the test input images
-- test_images_output/ : Contains the annoted output images
-- test_videos/        : Contains sample test videos
-- test_videos_output/ : Contains the annoted putput video
-- PipelineStages/     : Contains the intermediate output images after every pipeline stage
-- Project_Writeup.md  : Explains the techniques used in this project
-- **P1.ipynb**        : Jupyter Notebook file containing the project code
+- **test_images/**        : Contains the test input images
+- **test_images_output/** : Contains the annoted output images
+- **test_videos/**        : Contains sample test videos
+- **test_videos_output/** : Contains the annoted putput video
+- **PipelineStages/**     : Contains the intermediate output images after every pipeline stage
+- **Project_Writeup.md**  : Explains the techniques used in this project
+- **P1.ipynb**            : Jupyter Notebook file containing the **project code**
 
-Environmnet Setup:
+## Environmnet Setup:
 - Make sure Pyhton and OpenCV and other libraries are available on the system
 - Download and install [Jupyter Notebook](https://jupyter.org/).
 
-To run this notebook, 
+## To run this notebook, 
 - clone or download this project
 - Open Jupyter notebook
 - Open 'P1.ipynb'
