@@ -1,7 +1,7 @@
 # **Identifying Lane Lines Using Python and OpenCV** 
-***
+
 <p align="center">
-<img src='PipelineStages/solidWhiteRight_final.jpg' width='50%'>
+<img src='PipelineStages/solidWhiteRight_final.jpg' >
 </p>
 
 ## Overview
@@ -107,7 +107,15 @@ The output images after 'Edge Detection'
 
 ## 3. Region of Interest
 Since we know that the Lane lines are always present in the lower half of the frame within a known area, we can form a 4 sided polygon and filter out all the edges falling outside the polygon.
-
+  
+The 4 vertices I have chosen are
+    
+    (0.45*shape[1], 0.50*shape[0])
+    (0.60*shape[1], 0.50*shape[0])
+    (0,             0.97*shape[0])
+    (shape[1],      0.97*shape[0])
+  
+  
 So after applying ROI, the images look like
 <p align="center">
 <img src='PipelineStages/Stage_4_Edges%20(6).jpg' width='32%'>   <img src='PipelineStages/Stage_4_Edges%20(8).jpg' width='32%'>
@@ -203,7 +211,7 @@ above function draws a straight line from (x1,y1) to (x2,y2) on image `img`. And
 
 Tada! We are done. The final image looks like this...
 <p align="center">
-<img src='PipelineStages/solidWhiteRight_final.jpg' width='32%'>   <img src='PipelineStages/whiteCarLaneSwitch_final.jpg' width='32%'>
+<img src='PipelineStages/solidWhiteRight_final.jpg' width='45%'>   <img src='PipelineStages/whiteCarLaneSwitch_final.jpg' width='45%'>
 </p>
 
 ## Improvements
