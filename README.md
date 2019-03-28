@@ -1,4 +1,4 @@
-# **Identifying Lane Lines Using Python and OpenCV** 
+# **Identifying Lane Lines OpenCV** 
 
 <p align="center">
 <img src='PipelineStages/solidWhiteRight_final.jpg' >
