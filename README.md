@@ -1,4 +1,4 @@
-# **Identifying Lane Lines OpenCV** 
+# **Identifying Lane Lines Using OpenCV** 
 
 <p align="center">
 <img src='PipelineStages/solidWhiteRight_final.jpg' >
